@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset= "UTF-8">
+    <meta name="viewport" content="width=device-width ,user-scalable=no , initial-escala=1.0 , maximun-scala=1.0, miniun-scala=1.0">
+    <title>Inicio</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+	
+	
+</head>
+<body>
+
+	<nav class="navbar navbar-inverse navbar-static-stop" role="navegation">
+          <div class="container">
+               <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navegacion-fm">
+                        <span class="sr-only">Desplegar / ocultar Menu</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="#" class="navbar-brand">RedAcademic</a>
+                </div>
+                <!-- iniciar menu -->
+
+                <div class="collapse navbar-collapse" id="navegacion-fm">
+                  <ul class="nav navbar-nav">
+
+                     <li class=""> <a href="#">inicio</a> </li>
+                     <li> <a href="#">Perfil</a></li>
+                     <li> <a href="#">Salir</a></li>
+                  </ul>
+
+                  <form action="" class="navbar-form navbar-right" role  ="search">
+                    
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder=" buscar">
+                        </div>
+
+                         <button type="submit" class="btn btn-primary">
+                          <span class="glyphicon glyphicon-search"></span>
+                         </button>
+                  </form>
+                </div>
+             </div>
+    </nav>
+ <!-- Contenido de la página -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="page-header">Red Academy
+                    <small>Inicio</small>
+                </h1>
+                <ol class="breadcrumb">
+                    <li><a href="#">Perfil</a></li>
+                    <li><a href="#">Informacion de Usuario</a></li>
+                    <li><a href="">Editar</a></li>
+                    <li><a href="#">Fotos</a></li>
+                </ol>
+            </div>
+        </div>
+    </div>
+
+    <div class="row ">
+    <!-- Columna de la izquierda -->
+        <div class="col-md-3">
+                <div class="col-md-12" align="center">
+                    <img class="img-responsive  img-rouded img-thumbnail img-circle" src="img/burbuja y lalo.jpg">
+                </div>
+                
+                <div class="col-md-12">
+                    <p class="text-center"><strong>Nombre Apellido</strong></p>
+                    <p class="text-center"><em>Título del perfil de usuario</em></p>
+                </div>
+                
+        </div>
+
+        <div class="col-md-9">
+            <div class="control-group form-group">
+                <textarea class="col-md-11 form-group " placeholder="Ingresa tu estado....." rows="2" cols="20"  id="txtBiography" required maxlength="999" style="resize:none"></textarea>
+          
+            </div>
+            <div class="controls col-md-12">
+                <br>
+                <button class="btn btn-primary col-md-offset-10 " >Publicar</button>
+            </div>
+        </div>
+
+
+    </div>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
